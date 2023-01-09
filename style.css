@@ -24,13 +24,6 @@ h1 {
     color: #fff;
 }
 
-@media (max-width: 460px) {
-    h1 {
-        font-size: 3.5rem;
-        line-height: 1.2;
-    }
-}
-
 h2 {
     font-size: 3.25rem;
 }
@@ -48,12 +41,6 @@ a:visited {
     padding: 15px;
     border-radius: 5px;
     background: rgb(138, 7, 7);
-}
-
-@media (max-width: 460px) {
-    #main {
-        margin: 0;
-    }
 }
 
 img {
@@ -77,11 +64,6 @@ img {
     color: #fff;
 }
 
-@media (max-width: 460px) {
-    #img-caption {
-        font-size: 1.4rem;
-    }
-}
 
 #about {
     margin: 50px 0;
@@ -93,6 +75,7 @@ ul {
     margin: 0 auto 50px auto;
     text-align: left;
     line-height: 1.6;
+
 }
 
 li {
@@ -104,4 +87,25 @@ blockquote {
     max-width: 545px;
     margin: 0 auto 50px auto;
     text-align: left;
+}
+
+@media (max-width: 600px) {
+    #img-caption {
+        font-size: 0.5rem;
+    }
+    #main {
+        margin: 0;
+    }
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+
+    #image{
+        width: 850px;
+    }
+
+    #img1{
+        width: 280px;
+    }
 }
